@@ -1,0 +1,30 @@
+#tail {
+    width: 100%;
+    height: 180px;
+    border-top: #323431 2px solid;
+    margin: -4px 0;
+    background: #000;
+    color: #676767;
+    font-size: 12px;
+    min-width: 1200px
+}
+
+#tail_01>a {
+    color: inherit;
+    font-size: 12px
+}
+
+#tail>table {
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 12%
+}
+
+#tail_02>div {
+    margin: 8px
+}
+
+#tail_01>a:hover {
+    text-decoration: underline
+}

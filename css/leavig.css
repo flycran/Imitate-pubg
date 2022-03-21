@@ -1,0 +1,73 @@
+#leavig {
+    position: fixed;
+    z-index: 3;
+    height: calc(100% - 88px);
+    top: 80px
+}
+
+#leavig>img {
+    height: 100%
+}
+
+#leavig>ul>li {
+    position: absolute;
+    width: 50%;
+    height: 3%;
+    left: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    list-style-type: none
+}
+
+#leavig>ul>li:hover {
+    color: #f79400
+}
+
+#liUp>a {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -20px
+}
+
+#liDown>a {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -20px
+}
+
+.leavig_div {
+    position: relative;
+    top: -140%;
+    left: 150%;
+    width: 620%;
+    height: 220%;
+    overflow: hidden;
+    transition: .3s;
+    font-weight: 400;
+    color: #fff;
+    width: 0%;
+    opacity: 0
+}
+
+.leavig_div>div {
+    margin: 2px 10px
+}
+
+.leavig_div>img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 1
+}
+
+#leavig>ul>li:hover {
+    color: #f79400
+}
+
+.leavig_div1 {
+    width: 600%;
+    opacity: 1
+}

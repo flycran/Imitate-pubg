@@ -1,0 +1,60 @@
+#avig {
+    background: url(../img/picture/bg_top.png);
+    width: 100%;
+    min-width: 1200px;
+    height: 88px;
+    z-index: 3;
+    position: fixed;
+    transition: .3s
+}
+
+#avig>div {
+    margin: auto;
+    width: 85%;
+    position: relative
+}
+
+#avig>div>div {
+    height: 72px;
+    float: left;
+    overflow: hidden
+}
+
+#avig>div>div>a>img {
+    position: relative;
+    top: 6px
+}
+
+#avig>div>ul {
+    height: 80px;
+    margin: 0
+}
+
+#avig>div>ul>li {
+    width: auto;
+    height: 80px;
+    line-height: 80px;
+    color: #ccc;
+    font-weight: 700;
+    margin: 0 24px;
+    font-size: 14px;
+    list-style-type: none;
+    float: left
+}
+
+#avig>div>ul>li:hover {
+    color: #f79400
+}
+
+#a3 {
+    float: right;
+    background: #f79400;
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    top: 20px;
+    right: 20px
+}
